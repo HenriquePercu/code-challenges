@@ -1,3 +1,5 @@
-Code to resolve the following problem:
+# Repository Code Challenges
 
-https://www.hackerrank.com/challenges/cavity-map/problem
+This repository has the purpose to store my code to solve problems from HackerRank, below is my profile:
+
+https://www.hackerrank.com/henrique_percuu?hr_r=1

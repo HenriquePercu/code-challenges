@@ -18,7 +18,6 @@ public class ClimbingTheLadder {
         rankedWithoutRepetition = linkedHashSet.toArray(rankedWithoutRepetition);
 
         // necessario executar um binarySearch
-
         for (Integer pontuacao : player) {
             int posicao = Arrays.binarySearch(rankedWithoutRepetition, pontuacao, Comparator.reverseOrder());
 
@@ -35,33 +34,3 @@ public class ClimbingTheLadder {
     }
 
 }
-
-//    public static List<Integer> climbingLeaderboard(List<Integer> ranked, List<Integer> player) {
-//        List<Integer> posicoes = new ArrayList<>();
-//
-//        // remover duplicados
-//        Integer[] rankedWithoutRepetition = new LinkedHashSet<>(ranked).toArray();
-//
-//        // necessário executar um binarySearch
-//
-//        for (Integer pontuacao : player) {
-//
-//            Iterator<Integer> iterator = rankedWithoutRepetition.iterator();
-//            Integer posicao = 0;
-//            for (int i = 0; i < rankedWithoutRepetition.size(); i++) {
-//                if (iterator.hasNext()) {
-//                    Integer rank = iterator.next();
-//
-//                    // verificar se pontuacao e maior que rank
-//                    if (pontuacao >= rank) {
-//                        posicao = i + 1;
-//                        break;
-//                    }
-//                }
-//            }
-//            posicoes.add(posicao != 0 ? posicao : rankedWithoutRepetition.size() + 1);
-//
-//        }
-//
-//        return posicoes;
-//    }

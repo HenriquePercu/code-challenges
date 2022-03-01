@@ -26,7 +26,6 @@ public class ServiceLane {
         for (List<Integer> caso : cases) {
 
             int min = Collections.min(lane.subList(caso.get(0), caso.get(1) + 1));
-            System.out.println(min);
             result.add(min);
         }
 

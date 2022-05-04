@@ -1,6 +1,5 @@
-package insertionsort;
+package hackerrank.insertionsort;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 

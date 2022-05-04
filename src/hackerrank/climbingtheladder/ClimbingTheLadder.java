@@ -1,4 +1,4 @@
-package climbingtheladder;
+package hackerrank.climbingtheladder;
 
 import java.util.*;
 

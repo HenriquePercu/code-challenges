@@ -1,4 +1,4 @@
-package servicelane;
+package hackerrank.servicelane;
 
 import java.util.ArrayList;
 import java.util.Arrays;

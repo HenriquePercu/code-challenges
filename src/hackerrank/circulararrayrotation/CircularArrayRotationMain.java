@@ -1,4 +1,4 @@
-package circulararrayrotation;
+package hackerrank.circulararrayrotation;
 
 import java.util.ArrayList;
 import java.util.Arrays;

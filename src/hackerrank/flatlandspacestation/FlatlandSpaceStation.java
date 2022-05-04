@@ -1,4 +1,4 @@
-package flatlandspacestation;
+package hackerrank.flatlandspacestation;
 
 import java.util.Arrays;
 

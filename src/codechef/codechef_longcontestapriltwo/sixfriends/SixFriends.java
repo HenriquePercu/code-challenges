@@ -1,4 +1,4 @@
-package codechef_longcontestapriltwo.sixfriends;
+package codechef.codechef_longcontestapriltwo.sixfriends;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package superreducestring;
+package hackerrank.superreducestring;
 
 import java.util.*;
 

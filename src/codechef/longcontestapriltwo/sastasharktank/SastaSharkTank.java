@@ -1,4 +1,4 @@
-package codechef.codechef_longcontestapriltwo.sastasharktank;
+package codechef.longcontestapriltwo.sastasharktank;
 
 import java.util.Scanner;
 

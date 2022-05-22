@@ -1,4 +1,4 @@
-package codechef.codechef_longcontestapriltwo.pseudosort;
+package codechef.longcontestapriltwo.pseudosort;
 
 import java.util.ArrayList;
 import java.util.Arrays;

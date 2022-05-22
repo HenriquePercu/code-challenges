@@ -1,4 +1,4 @@
-package codechef.codechef_longcontestapriltwo.bestcoupon;
+package codechef.longcontestapriltwo.bestcoupon;
 
 import java.util.Scanner;
 

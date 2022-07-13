@@ -22,7 +22,6 @@ public class LongestSubstringWithoutRepeating3 {
                 validateSubstring = validateSubstring.concat(String.valueOf(character));
             } else {
                 validateSubstring = validateSubstring.substring(validateSubstring.indexOf(character) + 1).concat(String.valueOf(character));
-
             }
 
             if (validateSubstring.length() > maximumSubstring.length()) {

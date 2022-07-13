@@ -8,7 +8,7 @@ public class LongestSubstringWithoutRepeating3 {
         System.out.println(lengthOfLongestSubstring("tmmzuxt"));
     }
 
-    //TODO instead manipulating a substring, it could be only two index iterating over a char[] marking the substring, so we dont need the lastImportantIndex
+    //TODO instead manipulating a substring, it could be only two index iterating over a char[] marking the substring, so we dont need the lastImportantIndex.
     public static int lengthOfLongestSubstring(String s) {
         HashMap<Character, Integer> lettersOnTheSubsequence = new HashMap<>();
         String longestSubstring = "";

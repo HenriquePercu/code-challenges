@@ -1,6 +1,9 @@
 package codechef.starter37;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Scanner;
 
 public class LaptopRecomendation {
 

@@ -1,10 +1,8 @@
 package codewars;
 
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 import static org.junit.Assert.assertArrayEquals;
 

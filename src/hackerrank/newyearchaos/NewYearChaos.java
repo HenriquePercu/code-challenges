@@ -34,14 +34,11 @@ public class NewYearChaos {
                         Collections.swap(q, i - 1, i - 2);
                         Collections.swap(q, i, i - 1);
                     }
-
                 }
-
             }
         }
         if (bribes > 0) {
             System.out.println(bribes);
         }
-
     }
 }

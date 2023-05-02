@@ -1,7 +1,7 @@
 package codesignal;
 
 /**
- * Solving this challenge for Code Signal : <a href="https://app.codesignal.com/arcade/intro/level-2/yuGuHvcCaFCKk56rJ">...</a>
+ * Solving this challenge for Code Signal : <a href="https://app.codesignal.com/arcade/intro/level-2/yuGuHvcCaFCKk56rJ">Problem</a>
  */
 public class ShapeArea {
     static int solution(int n) {

@@ -1,7 +1,6 @@
 package codesignal;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * Solving this challenge for Code Signal : <a href="https://app.codesignal.com/arcade/intro/level-2/bq2XnSr5kbHqpHGJC">Problem</a>

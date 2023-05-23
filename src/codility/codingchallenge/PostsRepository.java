@@ -1,9 +1,9 @@
 package codility.codingchallenge;
 
-import java.util.List;
-
 import io.reactivex.Observable;
 import io.reactivex.Single;
+
+import java.util.List;
 
 public class PostsRepository {
 

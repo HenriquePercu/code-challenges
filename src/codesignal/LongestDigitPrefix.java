@@ -9,29 +9,17 @@ public class LongestDigitPrefix {
     String solution(String inputString) {
 
         String currentPrefix = "";
-        String maxPrefix = "";
 
         for(char character: inputString.toCharArray()) {
 
             if(Character.isDigit(character)){
                 currentPrefix += character;
             }else{
-
-                if(currentPrefix.length() > maxPrefix.length()){
-                    maxPrefix = currentPrefix;
-                }
-
-                currentPrefix = "";
                 break;
             }
 
         }
-
-        if(currentPrefix.length() > maxPrefix.length()){
-            maxPrefix = currentPrefix;
-        }
-
-        return maxPrefix;
+        return currentPrefix;
     }
 
 }

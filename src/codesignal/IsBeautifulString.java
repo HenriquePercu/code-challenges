@@ -8,10 +8,6 @@ import java.util.Map;
  */
 public class IsBeautifulString {
 
-    public static void main(String[] args){
-        solution("bbbaacdafe");
-    }
-
     static boolean solution(String inputString) {
         HashMap<Integer, Integer> frequencyMap = new HashMap<>();
 

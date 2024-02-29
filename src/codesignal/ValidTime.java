@@ -12,8 +12,9 @@ public class ValidTime {
         int hour = Integer.parseInt(hourParts[0]);
         int minute = Integer.parseInt(hourParts[1]);
 
-        return hour > 0 && hour <= 24 && minute > 0 && minute < 59;
+        return hour >= 0 && hour < 24 && minute >= 0 && minute < 60;
     }
+
 
 
 }

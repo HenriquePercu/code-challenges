@@ -35,11 +35,7 @@ public class SpiralNumbers {
                     break;
                 }
 
-                if(directionIndex == 3){
-                    directionIndex = 0;
-                }else{
-                    directionIndex++;
-                }
+                directionIndex = (directionIndex + 1) % 4;
 
                 direction = getDirections(directionIndex).split("\\|");
                 nextRow = Integer.parseInt(direction[0]);

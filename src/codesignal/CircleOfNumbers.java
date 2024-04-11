@@ -11,5 +11,8 @@ public class CircleOfNumbers {
 
     }
 
+    int solution2(int n, int firstNumber) {
+        return ((n / 2) + firstNumber) % n;
+    }
 
 }

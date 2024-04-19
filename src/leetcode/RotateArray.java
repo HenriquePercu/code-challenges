@@ -12,9 +12,7 @@ public class RotateArray {
 
     public static void rotate(int[] nums, int k) {
 
-        while (k > nums.length) {
-            k = k - nums.length;
-        }
+        k = k % nums.length;
 
         List<Integer> firstSlice = new java.util.ArrayList<>(Arrays.stream(nums, nums.length - k, nums.length).boxed().toList());
         List<Integer> secondSlice = Arrays.stream(nums, 0, nums.length - k).boxed().toList();

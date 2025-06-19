@@ -1,3 +1,5 @@
+package random;
+
 class Node {
     private Node leftChild, rightChild;
 
